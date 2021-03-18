@@ -1,0 +1,31 @@
+<?php
+//課題１
+$name = "伊藤匡史";
+switch ($name)
+{
+  case "伊藤匡史":
+    echo "私は伊藤匡史です";
+    break;
+  default :
+    echo "私は伊藤匡史ではありません";
+    break;
+}
+//課題２
+$total = 0;
+for ($i = 1; $i <= 10000; $i++){
+  $total += $i;
+}
+echo $total;
+//課題3
+$fruits = array("ぶどう", "オレンジ", "りんご", "レモン", "マンゴー");
+foreach($fruits as $fruits){
+  echo $fruits;
+}
+//課題4
+$start = 1;
+$end = 100;
+for($i = $start; $i <= $end; $i++){
+  if($i % 5 == 0){
+    echo $i;
+  }
+}
